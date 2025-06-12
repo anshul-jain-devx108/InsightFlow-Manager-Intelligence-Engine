@@ -1,36 +1,3 @@
-
-# from fastapi import FastAPI
-# from fastapi.middleware.cors import CORSMiddleware
-# from app.routers import upload, report, email
-# from app.scheduler.jobs import run_scheduled_jobs
-# from app.database.init_db import init_db
-
-# # Initialize DB only once at app startup
-# init_db()
-
-# app = FastAPI(
-#     title="People Insights API",
-#     description="Automated insights and email reporting system for People Managers",
-#     version="1.0.0"
-# )
-
-# # CORS configuration
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=["*"],
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
-
-# # Register routers
-# app.include_router(upload.router, prefix="/upload", tags=["Upload CSV"])
-# app.include_router(report.router, prefix="/report", tags=["Generate Report"])
-# app.include_router(email.router, prefix="/email", tags=["Send Emails"])
-
-# # Start background scheduler jobs
-# run_scheduled_jobs()
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import upload, report, email, employee  # ✅ add `employee`
