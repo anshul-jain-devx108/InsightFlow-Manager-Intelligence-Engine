@@ -126,7 +126,7 @@ Visit docs at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 > ✅ **Placeholder for ER Diagram**  
 > _(Add your ER diagram image here: `/assets/er-diagram.png`)_
 
-![ER Diagram](./assets/er-diagram.png)
+![ER Diagram](./ER-diagram.png)
 
 ---
 
