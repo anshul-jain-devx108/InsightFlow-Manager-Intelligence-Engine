@@ -38,7 +38,7 @@ InsightFlow is a backend system built using **FastAPI**, designed to generate au
 > ✅ **Placeholder for architecture diagram**  
 > _(Add your architecture image here: `/assets/architecture-diagram.png`)_
 
-![Architecture Diagram](./assets/architecture-diagram.png)
+![Architecture Diagram](.architecture-diagram.png)
 
 ---
 
