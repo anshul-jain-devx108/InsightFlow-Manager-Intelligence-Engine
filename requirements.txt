@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]               # includes multipart, websockets, etc.
+pydantic
+sqlalchemy
+jinja2
+aiofiles                        # required for file uploads
+python-dotenv
+apscheduler
+email-validator
+python-multipart               # required for form/file uploads

@@ -1,0 +1,11 @@
+employee_name,employee_email,department,role,manager_name,manager_email
+Ananya Sharma,ananya.sharma@company.com,Sales,Executive,Rajeev Mehta,rajeev.mehta@company.com
+Ravi Verma,ravi.verma@company.com,Marketing,Analyst,Neha Rao,neha.rao@company.com
+Kritika Joshi,kritika.joshi@company.com,Engineering,Intern,Vinay Kapoor,vinay.kapoor@company.com
+Aman Sethi,aman.sethi@company.com,Engineering,Developer,Vinay Kapoor,vinay.kapoor@company.com
+Neeraj Singh,neeraj.singh@company.com,Finance,Associate,Manoj Gupta,manoj.gupta@company.com
+Pooja Desai,pooja.desai@company.com,Human Resources,Executive,Neha Rao,neha.rao@company.com
+Saurabh Rana,saurabh.rana@company.com,Sales,Senior Executive,Rajeev Mehta,rajeev.mehta@company.com
+Nikita Shah,nikita.shah@company.com,Design,Intern,Alka Jain,alka.jain@company.com
+Harsh Vardhan,harsh.vardhan@company.com,Product,Manager,Alka Jain,alka.jain@company.com
+Mehul Patel,mehul.patel@company.com,Customer Support,Associate,Neha Rao,neha.rao@company.com

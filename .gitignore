@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+.idea/
+
+# macOS, Linux, Windows files
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+*.log
+*.out
+
+# Unit test cache
+.pytest_cache/
+coverage/
+htmlcov/
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database files
+*.sqlite3
+*.db
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# MyPy & Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# FastAPI docs cache
+docs/_build/
