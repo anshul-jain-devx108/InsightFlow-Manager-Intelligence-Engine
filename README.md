@@ -170,4 +170,4 @@ Licensed under the [MIT License](LICENSE).
 
 ---
 
-> 🔗 Built with ❤️ by Anshul Jain – For Angel One Internship
+> 🔗 Built with ❤️ by Anshul Jain 
