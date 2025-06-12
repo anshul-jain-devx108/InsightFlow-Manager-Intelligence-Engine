@@ -6,7 +6,6 @@ from app.models.employee import Employee
 from app.models.manager import Manager
 from app.models.employee_manager import EmployeeManager
 
-# 🔥 Remove the prefix from here
 router = APIRouter(tags=["Upload"])
 
 @router.post("/employee-csv/")
