@@ -68,7 +68,6 @@ app/
 ├── database/
 ├── schemas/
 ├── scheduler/
-├── static/
 └── utils/
 ```
 
@@ -106,39 +105,7 @@ Visit docs at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ---
 
-## 🐳 Docker & GCP Deployment
 
-### 📄 Dockerfile (Already included)
-
-### 📦 Build Docker Image
-
-```bash
-docker build -t insightflow-api .
-```
-
-### 🚀 Run Locally via Docker
-
-```bash
-docker run -p 8000:8000 insightflow-api
-```
-
-### ☁️ Deploy to Google Cloud Run
-
-1. Enable Cloud Run and Artifact Registry on GCP.
-2. Push the Docker image:
-   ```bash
-   gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/insightflow-api
-   ```
-3. Deploy:
-   ```bash
-   gcloud run deploy insightflow-api \
-     --image gcr.io/YOUR_PROJECT_ID/insightflow-api \
-     --platform managed \
-     --region asia-south1 \
-     --allow-unauthenticated
-   ```
-
----
 
 ## 🧪 API Testing (Postman)
 
